@@ -6,4 +6,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base:"/myportfolio/",
+  server:{
+    open:true,
+    port:3001
+  }
 })
